@@ -220,71 +220,31 @@ footer {
 	text-decoration: none;
 }
 
-/*footer, .push{
-	height: 100px;
-} //not sure why this messes up the screen??*/
-
 @media screen and (max-width:980px){
 	
 	.header_content{
-		width: 100%;
+		max-width: 803px;
 	}
 	
-	/*h1{
-		float: left;
-	}
-
-	#toplinks{
-		float: right;
-	}*/
-
+	
 	.container2{
-		max-width: 960px;
+		max-width: 803px;
 		width: 100%;
 	}
 	
 	.about_me{
-		width: 67.7%;
+		width: 59%;
 		margin: auto;
 	}
 
 	.connect{
 		width: 270px;
-		margin-left: 40px;
-		float:left;
+		float:right;
 
 	}
 
 }
 
-@media screen and (max-width:959px){
-
-	.header_content{
-		width: 100%;
-	}
-	.connect{
-		width: 100%;
-		margin-top: 40px;
-		margin-left: 0;
-	}
-	
-	.about_me,
-	.portfolio,
-	.contact{
-		width: 100%;
-	}
-
-	h3{
-		text-align: left;
-	}
-
-	p{
-		margin: 15px;
-	}
-
-	ul.thumbnailbox{
-		margin-left: 25px;
-	}
 
 @media screen and (max-width:768px){
 	.about_me{ 
@@ -305,12 +265,24 @@ footer {
 		margin-left: 25px;
 	}
 
+	.header_content{
+		max-width: 700px;
+	}
+
+	.container2{
+		max-width: 700px;
+	}
+
 }
 
 @media screen and (max-width:640px){
 	
 	header{
 		width: 100%;
+	}
+
+	.container2{
+		max-width:590px;
 	}
 
 	.header_content{
@@ -344,10 +316,5 @@ footer {
 		padding-bottom: 20px;
 		height: 50%;
 	}	
-
-	/*li.links{
-		border: none;
-		width: 33%;
-	}*/
 
 }
